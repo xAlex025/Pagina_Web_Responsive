@@ -1,0 +1,473 @@
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+   
+   * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Poppins','Arial', sans-serif;
+        background-color: #FBF8F1   ;
+    }
+ 
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .logo {
+        font-weight: bold;
+        background-color: #FAF8F4;
+    }
+    .logo img {
+        width: 300px;
+        height: 100px;
+    }
+
+    img {
+        max-width: 100%; /* Hace que la imagen sea responsiva */
+        height: auto;    /* Mantiene la proporción de la imagen al escalar */
+        display: block;  /* Evita que la imagen tenga espacio extra debajo */
+        margin: 0 auto;  /* Centra la imagen si no ocupa el ancho completo del contenedor */
+        border-radius: 8px; /* Opcional: bordes redondeados */
+    }
+
+    /* Estilos específicos para la sección de introducción, si es necesario */
+    .introduccion img {
+        display: flex; /* Utiliza Flexbox */
+        align-items: center; /* Alinea verticalmente */
+        justify-content: space-between; /* Espacia los elementos */
+      
+        text-align: left; /* Alinea el texto a la izquierda */
+        width: 600px;
+        height: 500px;
+    }
+
+    .enlaces-navegacion {
+        list-style: none;
+        display: flex;
+
+    }
+
+    .enlaces-navegacion li {
+        padding: 0 1em;
+    }
+
+    .enlaces-navegacion a {
+        text-decoration: none;
+        color: black;
+    }
+    .inicio-sesion{
+        background-color: #FBF8F1;
+        color:
+         #F26440;
+    }
+    .inicio-sesion p {
+        font-size: 15px;
+        font-family: 'Poppins','Arial', sans-serif;
+        font-weight: medium;
+    }
+    .registro p {
+        font-size: 15px;
+        font-family: 'Poppins','Arial', sans-serif;
+        font-weight: medium;
+    }
+
+    .botones-autenticacion .inicio-sesion,
+    .botones-autenticacion .registro {
+        
+
+        border: none;
+        padding: 0.5em 1em;
+        margin-left: 0.5em;
+    }
+    .registro {
+        background-color: #F26440;
+        color: white;
+        border-radius: 5px;
+    }
+
+ 
+
+  
+    .introduccion .texto {
+        flex: 1; /* Permite que el texto ocupe el espacio necesario */
+        padding-right: 2em; /* Espacio entre el texto y la imagen */
+    }
+    .introduccion {
+        display: flex; /* Usamos Flexbox */
+        align-items: center; /* Alinea verticalmente los elementos */
+        justify-content: space-between; /* Espacia los elementos horizontalmente */
+        text-align: left; /* Alinea el texto a la izquierda */
+        padding: 1em;
+       
+    }
+    
+    .introduccion .texto,
+    .introduccion .imagen {
+        flex: 1; /* Ambos elementos deben ocupar un espacio igual */
+    }
+
+     .pie {
+    padding: 20px;
+    background-color: #34495e;
+  }
+  .contenedor-pie {
+    display: flex;
+   
+    flex-wrap: wrap;
+  }
+  .seccion-pie {
+    margin: 10px;
+  }
+  .seccion-pie h3 {
+    margin-bottom: 15px;
+  }
+  .seccion-pie a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    display: block;
+  }
+  .seccion-pie a:hover {
+    text-decoration: underline;
+  }
+  .base-pie {
+    border-top: 1px solid #4b6584;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+    
+   
+
+    #estadisticas {
+        display: flex;
+        justify-content: center; /* Centra los elementos horizontalmente */
+        align-items: center; /* Centra los elementos verticalmente */
+        flex-direction: row; /* Organiza los elementos en una columna */
+        gap: 60px; /* Espacio entre los elementos de la columna */
+        padding: 2em;
+        width: 1170px; /* Ancho máximo del contenedor */
+        height: 143px; /* Altura del contenedor */
+        margin: 0 auto; /* Centra la sección en el contenedor */
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra horizontal, vertical, blur, y color */
+        margin-top: 40px;
+
+    }
+
+    .estadistica {
+        margin: 0 1em;
+        text-align: center;
+    }
+    img{
+        max-width: 100%;
+    height: auto;
+    display: block;
+    }
+    .texto h1 {
+
+        font-size: 56px ;
+        font-weight: medium;
+        line-height: 1.5em;
+        margin-bottom: 0.3em;
+
+        }
+    .texto p {
+        font-size: 18px;
+        font-weight: regular;
+    }
+
+    .numero {
+        display: block;
+        font-size: 40px;
+        font-weight: medium;
+        color: #F26440;
+
+    }
+
+    .etiqueta {
+        display: block;
+        color: #999999;
+ 
+        font-style: medium;
+        font-size: 18px;
+    }
+    .enlaces-navegacion a.activo {
+        color: #F26440; /* Este es solo un ejemplo, puedes usar el color que prefieras */
+        font-weight: bold;
+        /* Hace que el texto sea en negrita */
+    }
+
+    .comenzar {
+        background-color: #F26440;
+        border: none;
+        padding: 1em;
+        margin-top: 2em;
+        color: white;
+        cursor: pointer;
+        width: 25%;
+         border-radius: 5px;
+        
+        
+    }
+    .comenzar p{
+         font-size: 17px;
+        font-family: 'Poppins','Arial', sans-serif;
+        font-weight: medium;
+    }
+.registro:hover {
+    background-color: #c65335; 
+    transition: background-color 0.3s; 
+}
+
+.comenzar:hover {
+    background-color: #c65335; 
+    transition: background-color 0.3s;
+}
+
+.inicio-sesion:hover {
+     /* Un tono gris claro para un efecto sutil */
+    color: #333; /* Cambia el color del texto para mejorar la visibilidad */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el cambio de color y texto */
+}
+.enlaces-navegacion a:hover {
+    color: #c65335; /* Cambia este valor al color deseado para el hover */
+    transition: color 0.3s ease-in-out; /* Transición suave del color */
+}
+       
+
+
+
+    #nav1{
+
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+   
+        
+    }
+    #main1{
+
+        margin-left: 20px;
+        margin-right: 20px;
+   
+     
+
+    }
+    #nav1, #main1{
+        max-width: 1200px; /* O el ancho máximo deseado */
+        margin: 0 auto; 
+    }
+
+    .about-company {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .about-company img {
+           display: flex; /* Utiliza Flexbox */
+        align-items: center; /* Alinea verticalmente */
+        justify-content: space-between; /* Espacia los elementos */
+      
+        text-align: left; /* Alinea el texto a la izquierda */
+        width: 600px;
+        height: 500px;
+      }      
+      .image-container {
+        flex: 1;
+        /* Ajusta el tamaño de la imagen en el contenedor */
+        max-width: 50%;
+      }
+      
+      .image-container img {
+        width: 100%;
+        height: auto;
+        display: block; /* Asegura que no hay espacios extra alrededor de la imagen */
+      }
+      
+      .content-container {
+        flex: 1;
+        padding-left: 20px; /* Ajusta la separación entre la imagen y el texto */
+      }
+      
+      .content-container h2 {
+        font-size: 2em;
+        color: #333; /* O el color que desees */
+      }
+      
+      .content-container h3 {
+        font-size: 1.5em;
+        font-weight: normal;
+        color: #333; /* O el color que desees */
+        margin-top: 0.5em;
+      }
+      
+      .content-container p {
+        font-size: 1em;
+        color: #666; /* O el color que desees */
+        line-height: 1.6;
+      }
+      .logo img,
+.introduccion img,
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pie {
+    padding: 20px;
+    background-color: #34495e;
+  }
+  .contenedor-pie {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .seccion-pie {
+    margin: 10px;
+  }
+  .seccion-pie h3 {
+    margin-bottom: 15px;
+  }
+  .seccion-pie a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    display: block;
+  }
+  .seccion-pie a:hover {
+    text-decoration: underline;
+  }
+  .base-pie {
+    border-top: 1px solid #4b6584;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  #iconos-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Centra los iconos horizontalmente */
+    align-items: center; /* Centra los iconos verticalmente */
+    gap: 10px; /* Espacio entre iconos */
+  }
+  
+  #iconos-redes a {
+    color: white; /* Color de los iconos */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 1.5em; /* Tamaño de los iconos */
+  }
+  
+  #iconos-redes a:hover {
+    color: #a5becc; /* Color de los iconos al pasar el ratón por encima */
+  }
+ 
+
+
+
+    /* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .enlaces-navegacion,
+    .botones-autenticacion {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .enlaces-navegacion li,
+    .botones-autenticacion button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .introduccion,
+    .introduccion .texto,
+    .introduccion .imagen,
+    .about-company,
+    .image-container,
+    .content-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .introduccion .texto h1,
+    .texto p,
+    .numero,
+    .etiqueta,
+    .comenzar p,
+    .inicio-sesion p,
+    .registro p {
+        text-align: center;
+    }
+
+    .comenzar {
+        width: auto; /* Esto permite que el botón se expanda según su contenido interno o lo puedes ajustar al ancho deseado */
+        margin: 2em auto 0; /* Añade margen arriba y centra el botón horizontalmente */
+        display: block; /* Asegúrate de que .comenzar es un elemento de bloque */
+
+    }
+
+    #estadisticas {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+
+    .estadistica {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .logo{
+        display: none;
+    }
+}
+
+/* Pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    /* Ajustes similares a los de móviles, pero para tabletas */
+    /* Puedes elegir mantener algunas propiedades como en el escritorio, dependiendo del diseño */
+    
+    .introduccion {
+        flex-direction: column;
+    }
+
+    .introduccion .texto,
+    .introduccion .imagen {
+        width: auto;
+        padding: 10px;
+    }
+
+    #estadisticas {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .estadistica {
+        /* Ajuste el ancho como sea necesario, por ejemplo, 50% para dos columnas */
+        width: 50%;
+    }
+
+    #nav1, #main1 {
+        padding: 0 10px;
+    }
+    .contenedor-pie {
+        flex-direction: column;
+        align-items: center;
+      }
+      .seccion-pie {
+        margin: 20px;
+      }
+}
