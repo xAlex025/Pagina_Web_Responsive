@@ -488,6 +488,29 @@
       width: 90%; 
       margin: 10px 0; 
   }
+  .seccion-pie p {
+    text-align: center;
+  
+  }
+  
+  .seccion-pie h3{
+    text-align: center;
+    
+  }
+  #iconos-redes a {
+    color: white;
+    text-decoration: none; 
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #iconos-redes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 
    
 }
@@ -516,6 +539,9 @@
       }
       .seccion-pie {
         margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
      
     #estadisticas {
@@ -539,6 +565,7 @@
   .pie{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   #nav1 {
     flex-direction: column; 
@@ -566,6 +593,29 @@
 .botones-autenticacion button {
     width: 90%; 
     margin: 10px 0; 
+}
+.seccion-pie p {
+  text-align: center;
+
+}
+
+.seccion-pie h3{
+  text-align: center;
+
+}
+#iconos-redes a {
+  color: white;
+  text-decoration: none; 
+  font-size: 1.5em;
+  text-align: center;
+}
+#iconos-redes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 

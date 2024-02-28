@@ -147,7 +147,13 @@
         width: auto; 
         margin: 2em auto 0; 
         display: block; 
+       
 
+        
+    }
+    
+    .comenzar p {
+        margin: 10px 0; 
     }
 
     #estadisticas {
