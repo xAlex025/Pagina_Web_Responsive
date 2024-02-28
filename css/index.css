@@ -31,20 +31,20 @@
     }
 
     img {
-        max-width: 100%; /* Hace que la imagen sea responsiva */
-        height: auto;    /* Mantiene la proporción de la imagen al escalar */
-        display: block;  /* Evita que la imagen tenga espacio extra debajo */
-        margin: 0 auto;  /* Centra la imagen si no ocupa el ancho completo del contenedor */
-        border-radius: 8px; /* Opcional: bordes redondeados */
+        max-width: 100%; 
+        height: auto;    
+        display: block; 
+        margin: 0 auto; 
+        border-radius: 8px; 
     }
 
-    /* Estilos específicos para la sección de introducción, si es necesario */
+    
     .introduccion img {
-        display: flex; /* Utiliza Flexbox */
-        align-items: center; /* Alinea verticalmente */
-        justify-content: space-between; /* Espacia los elementos */
+        display: flex; 
+        align-items: center;
+        justify-content: space-between; 
       
-        text-align: left; /* Alinea el texto a la izquierda */
+        text-align: left; 
         width: 600px;
         height: 500px;
     }
@@ -97,21 +97,21 @@
 
   
     .introduccion .texto {
-        flex: 1; /* Permite que el texto ocupe el espacio necesario */
-        padding-right: 2em; /* Espacio entre el texto y la imagen */
+        flex: 1; 
+        padding-right: 2em; 
     }
     .introduccion {
-        display: flex; /* Usamos Flexbox */
-        align-items: center; /* Alinea verticalmente los elementos */
-        justify-content: space-between; /* Espacia los elementos horizontalmente */
-        text-align: left; /* Alinea el texto a la izquierda */
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        text-align: left; 
         padding: 1em;
        
     }
     
     .introduccion .texto,
     .introduccion .imagen {
-        flex: 1; /* Ambos elementos deben ocupar un espacio igual */
+        flex: 1; 
     }
 
      .pie {
@@ -171,16 +171,16 @@
 
     #estadisticas {
         display: flex;
-        justify-content: center; /* Centra los elementos horizontalmente */
-        align-items: center; /* Centra los elementos verticalmente */
-        flex-direction: row; /* Organiza los elementos en una columna */
-        gap: 60px; /* Espacio entre los elementos de la columna */
+        justify-content: center; 
+        align-items: center;
+        flex-direction: row; 
+        gap: 60px; 
         padding: 2em;
-        width: 1170px; /* Ancho máximo del contenedor */
-        height: 143px; /* Altura del contenedor */
-        margin: 0 auto; /* Centra la sección en el contenedor */
+        width: 1170px; 
+        height: 143px; 
+        margin: 0 auto; 
         background-color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra horizontal, vertical, blur, y color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         margin-top: 40px;
 
     }
@@ -223,9 +223,9 @@
         font-size: 18px;
     }
     .enlaces-navegacion a.activo {
-        color: #F26440; /* Este es solo un ejemplo, puedes usar el color que prefieras */
+        color: #F26440; 
         font-weight: bold;
-        /* Hace que el texto sea en negrita */
+       
     }
 
     .comenzar {
@@ -256,13 +256,13 @@
 }
 
 .inicio-sesion:hover {
-     /* Un tono gris claro para un efecto sutil */
-    color: #333; /* Cambia el color del texto para mejorar la visibilidad */
-    transition: background-color 0.3s, color 0.3s; /* Transición suave para el cambio de color y texto */
+   
+    color: #333; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 .enlaces-navegacion a:hover {
-    color: #c65335; /* Cambia este valor al color deseado para el hover */
-    transition: color 0.3s ease-in-out; /* Transición suave del color */
+    color: #c65335; 
+    transition: color 0.3s ease-in-out; 
 }
        
 
@@ -286,7 +286,7 @@
 
     }
     #nav1, #main1{
-        max-width: 1200px; /* O el ancho máximo deseado */
+        max-width: 1200px; 
         margin: 0 auto; 
     }
 
@@ -302,42 +302,41 @@
          margin-bottom: 2em;
       }
       .about-company img {
-           display: flex; /* Utiliza Flexbox */
-        align-items: center; /* Alinea verticalmente */
-        justify-content: space-between; /* Espacia los elementos */
-      
-        text-align: left; /* Alinea el texto a la izquierda */
+           display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        text-align: left; 
         width: 600px;
         height: 500px;
       }      
       .image-container {
         flex: 1;
-        /* Ajusta el tamaño de la imagen en el contenedor */
+        
         max-width: 100%;
       }
       
       .image-container img {
         width: 100%;
         height: auto;
-        display: block; /* Asegura que no hay espacios extra alrededor de la imagen */
+        display: block; 
       }
       
       .content-container {
         flex: 1;
-        padding-left: 40px; /* Ajusta la separación entre la imagen y el texto */
+        padding-left: 40px; 
       }
       
       .content-container h2 {
         font-size: 48px;
         font-weight: medium;
-        color: #333333; /* O el color que desees */
+        color: #333333; 
       }
       
       .content-container h3 {
         font-size: 32px;
         line-height: 1.2;
         font-weight:  medium;
-        color: #333333; /* O el color que desees */
+        color: #333333; 
         margin-top: 0.5em;
         margin-bottom: 0.5em;
       }
@@ -345,7 +344,7 @@
       .content-container p {
         font-size: 16px;
         font-weight: regular;
-        color: #333333;/* O el color que desees */
+        color: #333333;
         line-height: 1.7;
       }
       .logo img,
@@ -381,19 +380,19 @@
     display: flex;
     flex-direction: row;
     margin-top: 2em;
-    justify-content: flex-start; /* Centra los iconos horizontalmente */
-    align-items: center; /* Centra los iconos verticalmente */
-    gap: 30px; /* Espacio entre iconos */
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 30px; 
   }
   
   #iconos-redes a {
-    color: white; /* Color de los iconos */
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    font-size: 1.5em; /* Tamaño de los iconos */
+    color: white;
+    text-decoration: none; 
+    font-size: 1.5em;
   }
   
   #iconos-redes a:hover {
-    color: #a5becc; /* Color de los iconos al pasar el ratón por encima */
+    color: #a5becc;
   }
  
  
@@ -434,9 +433,9 @@
     }
 
     .comenzar {
-        width: auto; /* Esto permite que el botón se expanda según su contenido interno o lo puedes ajustar al ancho deseado */
-        margin: 2em auto 0; /* Añade margen arriba y centra el botón horizontalmente */
-        display: block; /* Asegúrate de que .comenzar es un elemento de bloque */
+        width: auto; 
+        margin: 2em auto 0; 
+        display: block; 
 
     }
 
@@ -466,28 +465,28 @@
       flex-direction: column;
     }
     #nav1 {
-      flex-direction: column; /* Cambia la disposición de los elementos a una columna */
-      align-items: center; /* Centra los elementos horizontalmente */
+      flex-direction: column; 
+      align-items: center; 
   }
 
   .enlaces-navegacion,
   .botones-autenticacion {
-      width: 100%; /* Hace que los enlaces y botones ocupen el ancho completo */
+      width: 100%; 
   }
 
   .enlaces-navegacion li {
-      text-align: center; /* Centra el texto de los enlaces */
+      text-align: center; 
   }
 
   .botones-autenticacion {
       display: flex;
-      flex-direction: column; /* Organiza los botones en una columna */
-      align-items: center; /* Centra los botones */
+      flex-direction: column; 
+      align-items: center; 
   }
 
   .botones-autenticacion button {
-      width: 90%; /* Ajusta el ancho de los botones según sea necesario */
-      margin: 10px 0; /* Añade un poco de margen vertical para separar los botones */
+      width: 90%; 
+      margin: 10px 0; 
   }
 
    
@@ -495,8 +494,6 @@
 
 
 @media (max-width: 768px) {
-    /* Ajustes similares a los de móviles, pero para tabletas */
-    /* Puedes elegir mantener algunas propiedades como en el escritorio, dependiendo del diseño */
     
     .introduccion {
         flex-direction: column;
@@ -543,6 +540,33 @@
     display: flex;
     flex-direction: column;
   }
+  #nav1 {
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.enlaces-navegacion,
+.botones-autenticacion {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.enlaces-navegacion li {
+    text-align: center; 
+  
+}
+
+.botones-autenticacion {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.botones-autenticacion button {
+    width: 90%; 
+    margin: 10px 0; 
+}
 
 
   }
