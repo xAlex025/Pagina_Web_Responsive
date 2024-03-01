@@ -28,6 +28,12 @@
         font-weight: bold;
         background-color: #FAF8F4;
     }
+     .logo  a{
+        font-weight: bold;
+        background-color: #FAF8F4;
+        text-decoration: none;
+        color: black;
+    }
     .logo img {
         width: 300px;
         height: 100px;
