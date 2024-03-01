@@ -1,105 +1,101 @@
 @import url(/css/index.css);
 .formulario-container {
-    max-width: 61%;
-    margin: 2em auto;
-    padding: 2em;
-    background-color: #FBF8F1;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 61%;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fbf8f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .formulario-login h2 {
-    
-    color: #333;
-    text-align: center;
-    margin-bottom: 1em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 .campo-formulario {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .campo-formulario label {
-    display: block;
+  display: block;
 
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .campo-formulario input {
-    width: 100%;
-    padding: 0.5em;
- 
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 0.5em;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .acciones-formulario {
-    text-align: center;
+  text-align: center;
 }
 
 .boton-enviar {
-    background-color: #F26440;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
+  background-color: #f26440;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
 
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 100%;
-    margin-top: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 1em;
 }
 
 .boton-enviar:hover {
-    background-color: #c65335;
+  background-color: #c65335;
 }
 
 .acciones-formulario p {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .acciones-formulario a {
-    color: #F26440;
-    text-decoration: none;
+  color: #f26440;
+  text-decoration: none;
 }
 
 .acciones-formulario a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .formulario-container {
-    animation: fadeInUp 0.5s ease-out forwards;
+  animation: fadeInUp 0.5s ease-out forwards;
 }
 .input-icon-container {
-    position: relative;
-    display: flex;
-    align-items: center;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .campo-formulario input {
-    width: 100%;
-    padding: 10px 10px 10px 35px; 
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 .campo-formulario .icon {
-    position: absolute;
-    left: 10px;
-    color: black;
-    
+  position: absolute;
+  left: 10px;
+  color: black;
 }
-
