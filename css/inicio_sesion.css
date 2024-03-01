@@ -1,0 +1,84 @@
+@import url(/css/index.css);
+.formulario-container {
+    max-width: 61%;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #FBF8F1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-login h2 {
+    
+    color: #333;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.campo-formulario {
+    margin-bottom: 1em;
+}
+
+.campo-formulario label {
+    display: block;
+
+    margin-bottom: 0.5em;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 0.5em;
+ 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.acciones-formulario {
+    text-align: center;
+}
+
+.boton-enviar {
+    background-color: #F26440;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.boton-enviar:hover {
+    background-color: #c65335;
+}
+
+.acciones-formulario p {
+    margin-top: 1em;
+}
+
+.acciones-formulario a {
+    color: #F26440;
+    text-decoration: none;
+}
+
+.acciones-formulario a:hover {
+    text-decoration: underline;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.formulario-container {
+    animation: fadeInUp 0.5s ease-out forwards;
+}
