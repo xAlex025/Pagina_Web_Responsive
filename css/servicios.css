@@ -1,0 +1,57 @@
+@import url(/css/index.css);
+
+.por-que-elegirnos {
+  text-align: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 50px 15px;
+}
+
+.por-que-elegirnos h2 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.por-que-elegirnos .subtitulo {
+  color: #666;
+  margin-bottom: 2em;
+}
+
+.tarjetas-servicio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tarjeta-servicio {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tarjeta-servicio:hover {
+  transform: translateY(-5px);
+}
+
+.tarjeta-servicio img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.tarjeta-servicio h3 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.tarjeta-servicio p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
