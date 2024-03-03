@@ -12,6 +12,8 @@
 body {
   font-family: "Poppins", "Arial", sans-serif;
   background-color: #fbf8f1;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav {
@@ -290,7 +292,7 @@ img {
   margin: 0 auto;
 }
 
-.about-company {
+.sobre-empresa {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -301,7 +303,7 @@ img {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-.about-company img {
+.sobre-empresa img {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -309,30 +311,30 @@ img {
   width: 600px;
   height: 500px;
 }
-.image-container {
+.imagen-contenedor {
   flex: 1;
 
   max-width: 100%;
 }
 
-.image-container img {
+.imagen-contenedor img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.content-container {
+.contenido-contenedor {
   flex: 1;
   padding-left: 40px;
 }
 
-.content-container h2 {
+.contenido-contenedor h2 {
   font-size: 48px;
   font-weight: medium;
   color: #333333;
 }
 
-.content-container h3 {
+.contenido-contenedor h3 {
   font-size: 32px;
   line-height: 1.2;
   font-weight: medium;
@@ -341,7 +343,7 @@ img {
   margin-bottom: 0.5em;
 }
 
-.content-container p {
+.contenido-contenedor p {
   font-size: 16px;
   font-weight: regular;
   color: #333333;
@@ -349,7 +351,7 @@ img {
 }
 .logo img,
 .introduccion img,
-.image-container img {
+.imagen-contenedor img {
   max-width: 100%;
   height: auto;
 }
@@ -410,9 +412,9 @@ img {
   .introduccion,
   .introduccion .texto,
   .introduccion .imagen,
-  .about-company,
-  .image-container,
-  .content-container {
+  .sobre-empresa,
+  .imagen-contenedor,
+  .contenido-contenedor {
     flex-direction: column;
     padding: 10px;
   }
@@ -447,7 +449,7 @@ img {
   .logo {
     display: none;
   }
-  .about-company {
+  .sobre-empresa {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -542,7 +544,7 @@ img {
     width: 100%;
     margin-bottom: 20px;
   }
-  .about-company {
+  .sobre-empresa {
     display: flex;
     justify-content: center;
     align-items: center;
