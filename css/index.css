@@ -509,6 +509,16 @@ img {
     align-items: center;
     gap: 30px;
   }
+  .contenido-contenedor h2 {
+    text-align: center;
+  }
+
+  .contenido-contenedor p {
+    text-align: center;
+  }
+  .contenido-contenedor h3 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -609,5 +619,15 @@ img {
     justify-content: center;
     align-items: center;
     gap: 30px;
+  }
+  .contenido-contenedor h2 {
+    text-align: center;
+  }
+
+  .contenido-contenedor p {
+    text-align: center;
+  }
+  .contenido-contenedor h3 {
+    text-align: center;
   }
 }

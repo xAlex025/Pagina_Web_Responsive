@@ -197,6 +197,9 @@
   .card-contenedor p {
     text-align: center;
   }
+  #texto-card p {
+    margin: 0 15px 0 15px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -243,5 +246,8 @@
   .pie {
     display: flex;
     flex-direction: column;
+  }
+  #texto-card p {
+    margin: 0 15px 0 15px;
   }
 }
