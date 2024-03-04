@@ -15,7 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
     <link rel="icon" type="image/x-icon" href="/img/favicon.png" />
-    <link rel="stylesheet" href="/css/inicio_sesion.css" />
+    <link rel="stylesheet" href="/css/olvidar_contraseña.css" />
   </head>
   <body>
     <header>
@@ -40,7 +40,15 @@
 
     <div class="formulario-container">
       <form class="formulario-login">
-        <h2>Iniciar Sesión</h2>
+        <article>
+          <h2>¿Has olvidado tu contraseña?</h2>
+          <p>
+            ¡No pasa nada! Todo el mundo tiene un despiste 😉. Escribe el email
+            de registro y recibirás las instrucciones para recuperar tu
+            contraseña.
+          </p>
+        </article>
+
         <div class="campo-formulario input-icon-container">
           <i class="fas fa-envelope icon"></i>
           <input
@@ -50,24 +58,11 @@
             required
           />
         </div>
-        <div class="campo-formulario input-icon-container">
-          <i class="fas fa-lock icon"></i>
-          <input
-            type="password"
-            id="password"
-            placeholder="Ingresa tu contraseña"
-            required
-          />
-        </div>
-        <a id="contraseña" href="/html/olvidar_contraseña.html"
-          >¿Has olvidado tu contraseña?</a
-        >
+
         <div class="acciones-formulario">
-          <button type="submit" class="boton-enviar">Iniciar Sesión</button>
-          <p>
-            ¿No tienes una cuenta?
-            <a href="/html/registrarse.html">Regístrate</a>
-          </p>
+          <button type="submit" class="boton-enviar">
+            Recuperar Contraseña
+          </button>
         </div>
       </form>
     </div>

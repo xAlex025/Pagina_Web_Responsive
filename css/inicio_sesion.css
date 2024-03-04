@@ -65,6 +65,14 @@
 .acciones-formulario a:hover {
   text-decoration: underline;
 }
+#contraseña {
+  color: black;
+  text-decoration: none;
+}
+#contraseña:hover {
+  color: #f26440;
+  transition: ease 0.3s;
+}
 
 @keyframes fadeInUp {
   from {

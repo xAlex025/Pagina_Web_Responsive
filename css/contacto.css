@@ -65,6 +65,9 @@
 #texto-contacto h1 {
   margin-bottom: 1em;
 }
+#texto-contacto a {
+  text-decoration: none;
+}
 #iconos-redes-contacto a {
   color: black;
   text-decoration: none;

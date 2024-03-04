@@ -1,0 +1,10 @@
+@import url(/css/index.css);
+@import url(/css/inicio_sesion.css);
+
+.formulario-login p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.formulario-login {
+  margin: 0 auto;
+}
