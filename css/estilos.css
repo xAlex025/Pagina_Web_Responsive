@@ -27,7 +27,7 @@
 .card-contenedor h4 {
   padding-top: 10px;
   padding-bottom: 10px;
-
+  text-align: center;
   font-weight: medium;
 }
 .card-contenedor p {
