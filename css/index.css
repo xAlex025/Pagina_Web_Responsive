@@ -115,6 +115,12 @@ img {
   color: white;
   border-radius: 5px;
 }
+.texto h1 {
+  color: #333333;
+}
+.texto p {
+  color: #666666;
+}
 
 .introduccion .texto {
   flex: 1;
@@ -254,6 +260,7 @@ img {
   font-size: 17px;
   font-family: "Poppins", "Arial", sans-serif;
   font-weight: medium;
+  color: white;
 }
 .comenzar a {
   font-size: 17px;
@@ -629,5 +636,19 @@ img {
   }
   .contenido-contenedor h3 {
     text-align: center;
+  }
+  .introduccion .texto h1,
+  .texto p,
+  .numero,
+  .etiqueta,
+  .comenzar p,
+  .inicio-sesion p,
+  .registro p {
+    text-align: center;
+  }
+  .comenzar {
+    width: auto;
+    margin: 2em auto 0;
+    display: block;
   }
 }
